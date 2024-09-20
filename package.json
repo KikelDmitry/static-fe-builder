@@ -1,0 +1,11 @@
+{
+  "name": "static-fe-builder",
+  "version": "0.1.0",
+  "description": "Builder for static frontend",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kikel Dmitry",
+  "license": "ISC"
+}
