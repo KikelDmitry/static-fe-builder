@@ -1,11 +1,27 @@
 {
-  "name": "static-fe-builder",
-  "version": "0.1.0",
-  "description": "Builder for static frontend",
-  "main": "gulpfile.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "Kikel Dmitry",
-  "license": "ISC"
+	"name": "static-fe-builder",
+	"version": "0.1.0",
+	"description": "Builder for static frontend",
+	"main": "gulpfile.js",
+	"type": "module",
+	"scripts": {
+		"dev": "gulp dev",
+		"test": "gulp test"
+	},
+	"author": {
+		"name": "Kikel Dmitry",
+		"url": "https://kikel.net"
+	},
+	"license": "ISC",
+	"devDependencies": {
+		"@prettier/plugin-pug": "^3.1.0",
+		"browser-sync": "^3.0.2",
+		"gulp": "^5.0.0",
+		"gulp-pug": "^5.0.0",
+		"prettier": "^3.3.3"
+	},
+	"browserslist": [
+		"last 2 versions",
+		"not dead"
+	]
 }
